@@ -10,17 +10,37 @@ public class Task5 {
 		 * 
 		 */
 
-		String countries[]= {"USA", "Australia", "Afghanistan", "Turkey"};
-		
-		String capitals []= { "DC", "Sydney", "Kabul",  "Istanbul"};
-		
+		String[] countries = { "Macedonia", "Serbia", "Bulgaria", "Turkey" };
 	
-		int nums[]=new int[10];
+		for (String country:countries) {
+			if (country.equals ("Macedonia")) {
+				System.out.println("Skopje");
+			}else if (country.equals ("Serbia"))
+				System.out.println("Belgrade");
+				
+			}else if (country.equals("Bulgaria")){
+				System.out.println("Sofia");
 		
-		for (int i=0; i<3; i++) {
-			
+			}else if (country. ) {
+				
+			}else {
+				System.out.println("Ankara");
+			}
 		}
-		System.out.println("capitals");
+	
+	for ( int i=0; i<countries.lenght;i++)
+		
+		switch (countries[i]) {
+		case "Macedonia":
+			System.out.println("Skopje");
+			break;
+		case "Serbia":
+			System.out.println("Belgrade");
+			break;
+		case "Turkey":
+			System.out.println("Ankara");
+			break;
+	
 	}
-
+}
 }
